@@ -1,6 +1,9 @@
 {
   "name": "catstronauts-client-complete",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "private": true,
   "description": "front-end demo app for Apollo's lift-off IV course",
   "dependencies": {
@@ -19,9 +22,6 @@
     "react-markdown": "^6.0.2",
     "react-player": "^2.6.0",
     "react-scripts": "^4.0.3",
-    "engines": {
-      "node": "16.x"
-    }
   },
   "scripts": {
     "start": "react-scripts start",
